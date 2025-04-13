@@ -28,7 +28,7 @@ nmi_CoDMART=zeros(T,NumberOfExp);% Matrix array that contains the NMI of
 %                                the detected common community structure at each run.
 nmi_Layer_CoDMART=zeros(T,NumberOfExp);% Matrix array that contains the
 %                                   mean NMI of the detected individual community structure at each run. 
-Distance=zeros(T,NumberOfExp);% Matrix array that contains the dietance between the consecutive common subspaces at each run.
+Distance=zeros(T,NumberOfExp);% Matrix array that contains the distance between the consecutive common subspaces at each run.
 %                                   
 %%
 
