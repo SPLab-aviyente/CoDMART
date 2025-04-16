@@ -7,7 +7,8 @@ This repository includes codes to run community detection in Multi-Aspect Functi
 
 ## Usage
 
-Please see `demo_CoDMART.m` under the main folder. 
+Please see `demo_CoDMART.m` under the main folder.
+Please run the m-file `run_me_first.m` before running the demo.
 
 ## Installation
 
