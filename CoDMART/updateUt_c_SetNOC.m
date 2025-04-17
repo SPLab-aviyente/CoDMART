@@ -1,4 +1,7 @@
 function [Ut_c,k] = updateUt_c_SetNOC(Lt,Ut_indv,Ut1_c,wt,lambda3,lambda4,MaxNOC,MinNOC,GAP)
+% Definition:
+%     This code is used to determine the number of common communities across the layers at time point t
+%     The number of communities is determined using the standard eigen gap criterion.
 
 
 [n,~,M]=size(Lt);
