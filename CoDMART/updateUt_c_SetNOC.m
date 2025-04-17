@@ -2,6 +2,24 @@ function [Ut_c,k] = updateUt_c_SetNOC(Lt,Ut_indv,Ut1_c,wt,lambda3,lambda4,MaxNOC
 % Definition:
 %     This code is used to determine the number of common communities across the layers at time point t
 %     The number of communities is determined using the standard eigen gap criterion.
+%   References:
+%       [1] E. Al sharoa, M. Alwardat and S. Aviyente. "Community Detection 
+%        in Multi-Aspect Functional Brain Networks: Robust Tensor 
+%        Decomposition Approach"
+
+%   Author: Esraa Al-sharoa 
+%   Address: Jordan University of Science and Technoloogy, EE
+%   email: emalsharoa@just.edu.jo
+
+%   Author: Mohammad Al-wardat
+%   Address: Michigan State University, ECE
+%   email: alwardat@msu.edu
+%   Website: GitHub
+%   Date: 12-Feb-2024; Last revision: 03-April-2025
+%
+%   Copyright (c) 2025, Esraa Al-sharoa and Mohammad Al-wardat
+
+%   All rights reserved.
 
 
 [n,~,M]=size(Lt);
