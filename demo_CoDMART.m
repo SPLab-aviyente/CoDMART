@@ -55,7 +55,6 @@ MinNOC=2; % Minimum number of communities
 
 %% Generate the multi-aspect network (MAN)
 [TN,GT]=createMyNewSlowlyTemporalNetwork1_n100_c434(0.6,0.2,0.1,0.2,0.6,0.2,0.1,0.2,0.6,0.2,0.1,0.2,SN,SN,SN,NumOfLayers);
-% [TN,GT]=createMyNewSlowlyTemporalNetwork1_n100_c456(0.6,0.2,0.1,0.2,0.6,0.2,0.1,0.2,0.6,0.2,0.1,0.2,SN,SN,SN,NumOfLayers);
 
 DataSet{k}=TN;
 
